@@ -138,10 +138,22 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 3s linear;
 }
+@keyframes spin {
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -155,6 +167,10 @@
     text-align: center;
     text-decoration: none;
 }
+
+
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -163,6 +179,10 @@
     width: 60px;
     height: 20px;
 }
+
+
+
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
